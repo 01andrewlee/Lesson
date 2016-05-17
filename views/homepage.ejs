@@ -1,0 +1,32 @@
+<div class="container">
+<form action="/user/create" method="POST">
+  <h1>Input User</h1>
+  <p>Name : </p>
+  <input typr="text" name="name" />
+  <p>Result : </p>
+  <input type="text" name="result" />
+  <br><br>
+  <button type="submit" class="btn btn-success">Create</button>
+</form>
+
+<form action="/user/update" method="POST">
+  <h1>Update User</h1>
+  <p>ID : </p>
+  <input typr="text" name="id" />
+  <p>Result : </p>
+  <input type="text" name="result" />
+  <br><br>
+  <button type="submit">Update</button>
+</form>
+
+<form action="/user/destroy" method="POST">
+  <h1>Destroy User</h1>
+  <p>ID : </p>
+  <input typr="text" name="idUser" />
+  <br><br>
+  <button type="submit">Destroy</button>
+</form>
+
+<br><br>
+<a href="/user/list">List</a>
+</div>

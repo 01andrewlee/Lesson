@@ -1,0 +1,16 @@
+<table class='table'>
+  <thead>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Result</th>
+  </thead>
+  <tbody>
+    <% _.each(users, function(user){ %>
+      <tr>
+        <td><%=user.id%></td>
+        <td><%=user.name%></td>
+        <td><%=user.result%></td>
+      </tr>
+    <% }) %>
+  </tbody>
+</table>
